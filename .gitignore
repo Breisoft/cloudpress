@@ -29,6 +29,7 @@ backend/staticfiles/
 
 # Virtual Environment
 backend/.venv/
+infra/.cdkvenv/
 
 # Other common Python ignores
 *.py[cod]
