@@ -1,0 +1,18 @@
+Blog:
+
+- ONLY admins can CREATE/UPDATE/DELETE posts
+- ANYONE (including anonymous) can READ or LIST
+
+- ANY authenticated user can perform any action on their OWN posts
+- Admin users can perform any action on ANY post
+
+Comments:
+
+- ANYONE (including anonymous) can READ or LIST comments for a given post
+- ANY authenciated user can CRUD their own comments
+
+Categories:
+
+- Only admin users can CREATE/UPDATE/DELETE categories
+- Category gets set to null on pre-existing blog posts if deleted
+- Any user, including authenticated, can LIST blog posts by category
